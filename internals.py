@@ -1,0 +1,61 @@
+# Internal Code of Robert the Minion (eyes, servos)
+# AI was heavily utilized in the making of this code.
+# Made by danieliscrazy and pizzalover125
+
+import board
+import digitalio
+import audiocore
+import audiobusio
+import busio
+from time import sleep
+
+# Button pins and sound files
+button_pins = [board.GP9, board.GP8, board.GP7, board.GP6, board.GP5, board.GP4]
+sound_files = [
+    "/bello.wav",
+    "/bela.wav",
+    "/banana.wav",
+    "/bottom.wav",
+    "/haha.wav",
+    "/yes.wav"
+]
+
+# Setup UART on GP16 (TX only), GP17 unused
+uart = busio.UART(board.GP16, None, baudrate=9600)
+
+# Setup buttons
+buttons = []
+for pin in button_pins:
+    button = digitalio.DigitalInOut(pin)
+    button.direction = digitalio.Direction.INPUT
+    button.pull = digitalio.Pull.UP
+    buttons.append(button)
+
+# Setup audio (I2S)
+audio = audiobusio.I2SOut(board.GP0, board.GP1, board.GP2)
+
+def play_wav(file_path):
+    try:
+        with open(file_path, "rb") as wave_file:
+            wav = audiocore.WaveFile(wave_file)
+            print(f"Playing {file_path}...")
+            audio.play(wav)
+            while audio.playing:
+                pass
+            print("Playback finished.")
+    except OSError as e:
+        print(f"Failed to play {file_path}: {e}")
+
+print("Ready. Press a button to play a sound.")
+
+while True:
+    for i, button in enumerate(buttons):
+        if not button.value:  # Button pressed
+            if i == 0:
+                # If first button (GP9) pressed, send signal BEFORE playing sound
+                uart.write(b'1')  # Send a single byte
+                print("Signal sent to second Pico.")
+
+            play_wav(sound_files[i])  # Now play the sound
+
+            sleep(0.2)  # Debounce delay
