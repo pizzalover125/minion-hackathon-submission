@@ -1,10 +1,10 @@
 # Minion
 Everybody loves minions... and so do we! We wanted to make a minion in real life. That's exactly what we did! 
 
-This project did not go as planned, to say the least. We were initally planning to do an Octocat or Orpheus, but it seemed unfeasible to model and a lot of other teams were already doing that. We spent all of Friday night brainstorming and finalized our idea at exactly 7:52 AM on Saturday, 7/12/25. We then began work on our project and demoed this:
+This project did not go as planned, to say the least. We were initally planning to do an Octocat or Orpheus, but it seemed unfeasible to model and a lot of other teams were already doing that. We spent all of Friday night brainstorming and finalized our idea at exactly 7:52 AM on Saturday, 7/12/25. We then began work on our project and demoed this: <br>
 <img width="1017" height="735" alt="image" src="https://github.com/user-attachments/assets/9a88eace-f2b5-49aa-8d31-b656d75c31e5" />
 
-I (@pizzalover125) worked on the electronics and @dld worked on the CAD. By evening, even after completing some of the workshops, the displays, CAD, AND speaker all worked!
+I (@pizzalover125) worked on the electronics and @dld worked on the CAD. By evening, even after completing some of the workshops, the displays, CAD, AND speaker all worked! <br>
 <img width="693" height="360" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/8bec8da1-1a06-4d81-8df2-4bc770b28562" />
 
 It should have been easy sailing from here... right? Nope, not even close. First of all, the 3d printer situation was a DISASTER. Everyone had prints and it was just super chaotic. I tried soldering neopixels FOR HOURS but it just wouldn't work. I then began work on the microSD, which was the start of the disaster. Me and my partner then went to sleep. 
