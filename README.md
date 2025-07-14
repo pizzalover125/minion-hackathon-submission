@@ -12,7 +12,9 @@ Robert has two main parts. The internals, and the externals. Both are powered by
 We had to sacrifice a few features due to constraints, including a rotating body, a motion sensor, and a gyroscope, but we still feel happy with the results!
 
 <img width="1017" height="735" alt="image" src="https://github.com/user-attachments/assets/9a88eace-f2b5-49aa-8d31-b656d75c31e5" />
+
 > Our initial pitch diagram
 
 <img width="693" height="360" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/8bec8da1-1a06-4d81-8df2-4bc770b28562" />
+
 > Our files in TinkerCAD!
