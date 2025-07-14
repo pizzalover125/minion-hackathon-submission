@@ -1,4 +1,4 @@
-# minion-hackathon-submission
+# Minion
 Everybody loves minions... and so do we! We wanted to make a minion in real life. That's exactly what we did! 
 
 This project did not go as planned, to say the least. We were initally planning to do an Octocat or Orpheus, but it seemed unfeasible to model and a lot of other teams were already doing that. We spent all of Friday night brainstorming and finalized our idea at exactly 7:52 AM on Saturday, 7/12/25. We then began work on our project and demoed this:
