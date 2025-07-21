@@ -18,3 +18,5 @@ We had to sacrifice a few features due to constraints, including a rotating body
 <img width="693" height="360" alt="image-removebg-preview" src="https://github.com/user-attachments/assets/8bec8da1-1a06-4d81-8df2-4bc770b28562" />
 
 > Our files in TinkerCAD!
+
+> [Demo video](https://youtu.be/yS_pKvuW1wA)
