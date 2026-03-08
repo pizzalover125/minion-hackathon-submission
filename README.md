@@ -1,11 +1,14 @@
 # Robert the Minion
-> Made by pizzalover125 and danieliscrazy/dld
+> Made by pizzalover125 and danieliscrazy/dld.
+>
+> This project was made for Undercity, a 4 day hardware hackathon at GitHub HQ! Robert the Minion placed 13th out of 75 projects.
+> 
+> [Demo video](https://youtu.be/yS_pKvuW1wA)
+
 
 Everybody loves minions... and so do we! We wanted to make a minion in real life, so that's exactly what we did! Meet Robert, an interactive minion powered by Orpheus Pico.
 
 <img width="540" height="720" alt="image" src="https://github.com/user-attachments/assets/5fa913c8-0257-4719-b38c-368186877bd9" />
-
-> This project was made for Undercity, a 4 day hardware hackathon at GitHub HQ! Robert the Minion placed 13th out of 75 projects.
 
 Robert has two main parts. The internals, and the externals. Both are powered by an Orpheus Pico board. The internal Pico powers the eyes that blink and the waving arms. The external Pico powers the speaker, and the 6 buttons that control it.
 
